@@ -1,0 +1,58 @@
+
+.contenu{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    left: 30%;
+    top: 15%;
+    padding: 40px;
+    border-style: solid;
+    border-color: black;
+}
+
+.etd{
+    position: relative;
+    left: 4.1rem;
+    width: 180px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.maths{
+    position: relative;
+    left: 5rem;
+    width: 180px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.info{
+    position: relative;
+    left: 2.3rem;
+    width: 180px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+input[type=button],[type=submit]{
+    position: relative;
+    margin: 5px;
+    bottom: 7rem;
+    left: 23rem;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+input[type=button],[type=submit]:hover{
+    opacity: 80%;
+    cursor:pointer;
+}
+p{
+    position: relative;
+    left: 5rem;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+}

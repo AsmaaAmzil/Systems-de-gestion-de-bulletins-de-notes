@@ -1,0 +1,42 @@
+
+.contenu{
+    position: absolute;
+    width: 500px;
+    left: 30%;
+    top: 15%;
+    padding: 40px;
+    border-style: solid;
+    border-color: black;
+}
+
+input[type=text],[type=password]{
+    position: relative;
+    left: 10rem;
+    width: 180px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+/* .titre,.pied{
+    position: relative;
+    left: 8rem;
+} */
+.Identifiant{
+    margin-left: 17px;
+}
+
+input[type=button],[type=submit]{
+    position: relative;
+    left: 14.5rem;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+input[type=button],[type=submit]:hover{
+    opacity: 80%;
+    cursor:pointer;
+}
+p{
+    color : red;
+}
